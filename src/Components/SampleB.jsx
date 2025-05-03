@@ -16,6 +16,7 @@ const SampleB = () => {
   const submitHandler=(e)=>{
     e.preventDefault();
     console.log("The data is :",data)
+    setData({})
 
   }
 

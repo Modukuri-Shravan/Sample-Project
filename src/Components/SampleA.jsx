@@ -30,7 +30,6 @@ const SampleA = () => {
         {array.map((item, index) => (
  <li key={index}>{item}</li>
         )
-         
         )}
       </ul>
     </>
